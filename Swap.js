@@ -4,13 +4,13 @@
 let a = prompt('Enter the first variable: ');
 let b = prompt('Enter the second variable: ');
 
-//create a temporary variable
-let temp;
+//create a swap variable
+let swap;
 
 //swap variables
-temp = a;
+swap = a;
 a = b;
-b = temp;
+b = swap;
 
 console.log(`The value of a after swapping: ${a}`);
 console.log(`The value of b after swapping: ${b}`);
